@@ -141,7 +141,7 @@ def prepare_groups(
     Returns:
         Dicionário {categoria: [lista de itens com price_int e score]}.
     """
-    from src.scoring import compute_part_score  # evita importação circular
+    from scoring import compute_part_score  # evita importação circular
 
     groups: dict[str, list[dict]] = {}
     for category, group_df in df_parts.groupby("category"):
