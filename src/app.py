@@ -39,11 +39,8 @@ st.set_page_config(
 
 # ─── Font Awesome 6 + CSS global ─────────────────────────────────────────────
 st.markdown("""
-<link rel="stylesheet"
-  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
-  integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
-  crossorigin="anonymous" referrerpolicy="no-referrer"/>
 <style>
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css');
 :root {
   --accent:   #7B68EE;
   --accent2:  #20B2AA;
@@ -112,13 +109,14 @@ html,[class*="css"]{font-family:'Inter',system-ui,sans-serif;}
 
 /* ── Store buttons ── */
 .store-btn {
-  display: inline-block; padding: .32rem .75rem;
-  border-radius: 7px; margin: .15rem;
-  font-size: .8rem; font-weight: 600;
+  display: inline-flex; align-items: center;
+  padding: .45rem 1rem; border-radius: 9px; margin: .2rem .15rem;
+  font-size: .88rem; font-weight: 700; letter-spacing: .01em;
   color: white !important; text-decoration: none !important;
-  transition: opacity .2s;
+  transition: opacity .18s, transform .12s;
+  box-shadow: 0 2px 8px rgba(0,0,0,.35);
 }
-.store-btn:hover { opacity: .82; }
+.store-btn:hover { opacity: .88; transform: translateY(-1px); }
 
 /* ── Cart item ── */
 .cart-row {
@@ -167,28 +165,42 @@ CATEGORY_FA = {
 }
 DEFAULT_FA = ("fa-puzzle-piece", "linear-gradient(135deg,#555,#777)", "#888")
 
-STORE_COLORS = {
-    "KaBuM!":       "#e05a00",
-    "TerabyteShop": "#005cbf",
-    "Pichau":       "#5f2ed6",
-    "Amazon Brasil":"#e47911",
-    "Mercado Livre":"#c49a00",
+# (color, favicon-domain) por loja
+STORE_META = {
+    "KaBuM!":        ("#c94b00",  "kabum.com.br"),
+    "TerabyteShop":  ("#0050a8",  "terabyteshop.com.br"),
+    "Pichau":        ("#5828c4",  "pichau.com.br"),
+    "Amazon Brasil": ("#d4760c",  "amazon.com.br"),
+    "Mercado Livre": "#a08900",
 }
+
+_FAVICON = "https://www.google.com/s2/favicons?domain={domain}&sz=32"
+
+def _store_links_html(search_name: str) -> str:
+    links = generate_store_links(search_name)
+    parts = []
+    for s, url in links.items():
+        meta = STORE_META.get(s, ("#444", ""))
+        color, domain = (meta if isinstance(meta, tuple) else (meta, ""))
+        favicon = _FAVICON.format(domain=domain) if domain else ""
+        img_tag = (
+            f'<img src="{favicon}" '
+            f'style="width:18px;height:18px;vertical-align:middle;'
+            f'border-radius:4px;margin-right:.45rem;flex-shrink:0;" '
+            f'onerror="this.style.display=\'none\'">'
+            if favicon else ""
+        )
+        parts.append(
+            f'<a href="{url}" target="_blank" class="store-btn" style="background:{color};">'
+            f'{img_tag}{s}</a>'
+        )
+    return "".join(parts)
 
 def _ico(fa_class: str, gradient: str, size: str = "1.3rem") -> str:
     return (
         f'<div class="part-ico" style="background:{gradient};">'
         f'<i class="fas {fa_class}" style="font-size:{size};"></i></div>'
     )
-
-def _store_links_html(search_name: str) -> str:
-    links = generate_store_links(search_name)
-    parts = [
-        f'<a href="{url}" target="_blank" class="store-btn" style="background:{STORE_COLORS.get(s,"#444")};">'
-        f'<i class="fas fa-store" style="margin-right:.3rem;font-size:.75rem;"></i>{s}</a>'
-        for s, url in links.items()
-    ]
-    return "".join(parts)
 
 # ─── Estado global ───────────────────────────────────────────────────────────
 def _init_state():
@@ -887,12 +899,10 @@ def _cart_row(item: dict):
             unsafe_allow_html=True,
         )
     with c_links:
-        btn_html = "".join([
-            f'<a href="{url}" target="_blank" class="store-btn" style="background:{STORE_COLORS.get(s,"#444")};">'
-            f'<i class="fas fa-store" style="font-size:.7rem;margin-right:.25rem;"></i>{s}</a>'
-            for s, url in links.items()
-        ])
-        st.markdown(f'<div style="padding-top:.4rem;">{btn_html}</div>', unsafe_allow_html=True)
+        st.markdown(
+            f'<div style="padding-top:.3rem;">{_store_links_html(search)}</div>',
+            unsafe_allow_html=True,
+        )
     with c_del:
         if st.button("", icon=":material/delete:", key=f"del_{item['id']}", help="Remover"):
             remove_from_cart(item["id"])

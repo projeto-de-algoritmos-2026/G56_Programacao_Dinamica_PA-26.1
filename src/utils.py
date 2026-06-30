@@ -76,27 +76,27 @@ def truncate_name(name: str, max_len: int = 35) -> str:
 def get_performance_tier(score: float) -> str:
     """Classifica o score em faixa de desempenho."""
     if score >= 90:
-        return "🔥 Extremo"
+        return "Extremo"
     if score >= 75:
-        return "⚡ Alto"
+        return "Alto"
     if score >= 55:
-        return "✅ Médio-Alto"
+        return "Médio-Alto"
     if score >= 40:
-        return "📊 Médio"
-    return "💡 Entrada"
+        return "Médio"
+    return "Entrada"
 
 
 def get_laptop_tier(score: float) -> str:
     """Classifica notebooks por tier de desempenho."""
     if score >= 200:
-        return "🔥 Premium Gamer"
+        return "Premium Gamer"
     if score >= 150:
-        return "⚡ Gamer"
+        return "Gamer"
     if score >= 100:
-        return "✅ Intermediário"
+        return "Intermediário"
     if score >= 70:
-        return "📊 Básico"
-    return "💡 Ultraleve"
+        return "Básico"
+    return "Ultraleve"
 
 
 def sort_items_by_category(items: list[dict]) -> list[dict]:
