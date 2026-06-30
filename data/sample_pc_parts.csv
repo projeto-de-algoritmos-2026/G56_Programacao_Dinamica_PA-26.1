@@ -1,0 +1,96 @@
+id,name,category,brand,price_brl,performance_score,socket,memory_type,wattage,store_search_name
+1,Intel Core i3-12100F,CPU,Intel,699,55,LGA1700,,65,Intel Core i3-12100F
+2,Intel Core i5-12400F,CPU,Intel,999,72,LGA1700,,65,Intel Core i5-12400F
+3,Intel Core i5-13400F,CPU,Intel,1149,78,LGA1700,,65,Intel Core i5-13400F
+4,Intel Core i5-13600K,CPU,Intel,1599,88,LGA1700,,125,Intel Core i5-13600K
+5,Intel Core i7-13700K,CPU,Intel,2199,95,LGA1700,,125,Intel Core i7-13700K
+6,Intel Core i9-13900K,CPU,Intel,3499,100,LGA1700,,125,Intel Core i9-13900K
+7,AMD Ryzen 5 5500,CPU,AMD,499,60,AM4,,65,AMD Ryzen 5 5500
+8,AMD Ryzen 5 5600,CPU,AMD,699,70,AM4,,65,AMD Ryzen 5 5600
+9,AMD Ryzen 5 5600X,CPU,AMD,849,75,AM4,,65,AMD Ryzen 5 5600X
+10,AMD Ryzen 7 5700X,CPU,AMD,1099,82,AM4,,65,AMD Ryzen 7 5700X
+11,AMD Ryzen 7 5800X,CPU,AMD,1299,86,AM4,,105,AMD Ryzen 7 5800X
+12,AMD Ryzen 9 5900X,CPU,AMD,1799,93,AM4,,105,AMD Ryzen 9 5900X
+13,AMD Ryzen 5 7600X,CPU,AMD,1599,85,AM5,,105,AMD Ryzen 5 7600X
+14,AMD Ryzen 7 7700X,CPU,AMD,2199,91,AM5,,105,AMD Ryzen 7 7700X
+15,AMD Ryzen 9 7900X,CPU,AMD,2999,97,AM5,,170,AMD Ryzen 9 7900X
+16,NVIDIA RTX 3060 12GB,GPU,NVIDIA,1299,68,,,170,NVIDIA RTX 3060 12GB
+17,NVIDIA RTX 3060 Ti 8GB,GPU,NVIDIA,1599,76,,,200,NVIDIA RTX 3060 Ti 8GB
+18,NVIDIA RTX 3070 8GB,GPU,NVIDIA,1999,83,,,220,NVIDIA RTX 3070 8GB
+19,NVIDIA RTX 3080 10GB,GPU,NVIDIA,2999,91,,,320,NVIDIA RTX 3080 10GB
+20,NVIDIA RTX 4060 8GB,GPU,NVIDIA,1799,78,,,115,NVIDIA RTX 4060 8GB
+21,NVIDIA RTX 4060 Ti 8GB,GPU,NVIDIA,2299,85,,,165,NVIDIA RTX 4060 Ti 8GB
+22,NVIDIA RTX 4070 12GB,GPU,NVIDIA,2999,90,,,200,NVIDIA RTX 4070 12GB
+23,NVIDIA RTX 4070 Ti 12GB,GPU,NVIDIA,3999,95,,,285,NVIDIA RTX 4070 Ti 12GB
+24,NVIDIA RTX 4080 16GB,GPU,NVIDIA,5999,98,,,320,NVIDIA RTX 4080 16GB
+25,NVIDIA RTX 4090 24GB,GPU,NVIDIA,9999,100,,,450,NVIDIA RTX 4090 24GB
+26,AMD RX 6600 8GB,GPU,AMD,999,65,,,132,AMD RX 6600 8GB
+27,AMD RX 6600 XT 8GB,GPU,AMD,1199,70,,,160,AMD RX 6600 XT 8GB
+28,AMD RX 6700 XT 12GB,GPU,AMD,1699,78,,,230,AMD RX 6700 XT 12GB
+29,AMD RX 7600 8GB,GPU,AMD,1399,72,,,165,AMD RX 7600 8GB
+30,AMD RX 7700 XT 12GB,GPU,AMD,2199,82,,,245,AMD RX 7700 XT 12GB
+31,ASUS Prime B450M-A,Motherboard,ASUS,399,55,AM4,DDR4,0,ASUS Prime B450M-A
+32,ASUS ROG Strix B450-F,Motherboard,ASUS,649,65,AM4,DDR4,0,ASUS ROG Strix B450-F
+33,Gigabyte B550 AORUS Pro,Motherboard,Gigabyte,799,72,AM4,DDR4,0,Gigabyte B550 AORUS Pro
+34,MSI MAG B550 TOMAHAWK,Motherboard,MSI,699,70,AM4,DDR4,0,MSI MAG B550 TOMAHAWK
+35,ASUS TUF Gaming X570-Plus,Motherboard,ASUS,999,78,AM4,DDR4,0,ASUS TUF Gaming X570-Plus
+36,Gigabyte X570 AORUS Elite,Motherboard,Gigabyte,1199,82,AM4,DDR4,0,Gigabyte X570 AORUS Elite
+37,ASRock X670E Pro RS,Motherboard,ASRock,1199,80,AM5,DDR5,0,ASRock X670E Pro RS
+38,ASUS ROG Strix X670E-F,Motherboard,ASUS,2199,90,AM5,DDR5,0,ASUS ROG Strix X670E-F
+39,MSI MAG X670E TOMAHAWK,Motherboard,MSI,1499,83,AM5,DDR5,0,MSI MAG X670E TOMAHAWK
+40,ASUS Prime H610M-K,Motherboard,ASUS,499,52,LGA1700,DDR4,0,ASUS Prime H610M-K
+41,Gigabyte B660M DS3H,Motherboard,Gigabyte,599,58,LGA1700,DDR4,0,Gigabyte B660M DS3H
+42,MSI PRO B660-A,Motherboard,MSI,699,62,LGA1700,DDR4,0,MSI PRO B660-A
+43,ASUS TUF Gaming B760-Plus,Motherboard,ASUS,899,70,LGA1700,DDR4,0,ASUS TUF Gaming B760-Plus
+44,Gigabyte Z790 AORUS Elite,Motherboard,Gigabyte,1699,87,LGA1700,DDR5,0,Gigabyte Z790 AORUS Elite
+45,MSI MAG Z790 TOMAHAWK,Motherboard,MSI,1599,85,LGA1700,DDR5,0,MSI MAG Z790 TOMAHAWK
+46,Kingston Fury Beast DDR4 8GB 3200MHz,RAM,Kingston,149,50,,,0,Kingston Fury Beast DDR4 8GB
+47,Kingston Fury Beast DDR4 16GB 3200MHz,RAM,Kingston,249,65,,,0,Kingston Fury Beast DDR4 16GB
+48,Kingston Fury Beast DDR4 32GB 3200MHz,RAM,Kingston,449,75,,,0,Kingston Fury Beast DDR4 32GB
+49,Corsair Vengeance RGB DDR4 16GB 3600MHz,RAM,Corsair,329,70,,,0,Corsair Vengeance RGB DDR4 16GB
+50,Corsair Vengeance DDR5 16GB 5200MHz,RAM,Corsair,449,72,,,0,Corsair Vengeance DDR5 16GB
+51,Corsair Dominator Platinum DDR5 32GB 6000MHz,RAM,Corsair,899,85,,,0,Corsair Dominator DDR5 32GB
+52,G.Skill Trident Z5 DDR5 32GB 6400MHz,RAM,G.Skill,1099,88,,,0,G.Skill Trident Z5 DDR5 32GB
+53,Team T-Force Vulcan DDR4 16GB 3200MHz,RAM,Team,229,62,,,0,Team T-Force Vulcan DDR4 16GB
+54,Kingston Fury Beast DDR4 8GB 3000MHz,RAM,Kingston,129,48,,,0,Kingston Fury DDR4 8GB 3000MHz
+55,Crucial Ballistix DDR4 16GB 3200MHz,RAM,Crucial,259,66,,,0,Crucial Ballistix DDR4 16GB
+56,Kingston NV2 240GB SSD,Storage,Kingston,149,45,,,0,Kingston NV2 240GB SSD
+57,Kingston NV2 480GB SSD,Storage,Kingston,219,55,,,0,Kingston NV2 480GB SSD
+58,Kingston NV2 1TB SSD NVMe,Storage,Kingston,379,68,,,0,Kingston NV2 1TB SSD NVMe
+59,WD Blue SN570 1TB NVMe,Storage,WD,399,72,,,0,WD Blue SN570 1TB NVMe
+60,Samsung 970 EVO Plus 1TB NVMe,Storage,Samsung,499,80,,,0,Samsung 970 EVO Plus 1TB NVMe
+61,Samsung 980 Pro 1TB NVMe,Storage,Samsung,649,88,,,0,Samsung 980 Pro 1TB NVMe
+62,Seagate Barracuda 1TB HDD,Storage,Seagate,189,35,,,0,Seagate Barracuda 1TB HDD
+63,Seagate Barracuda 2TB HDD,Storage,Seagate,249,38,,,0,Seagate Barracuda 2TB HDD
+64,WD Blue 1TB HDD,Storage,WD,199,35,,,0,WD Blue 1TB HDD
+65,WD Black SN770 1TB NVMe,Storage,WD,499,82,,,0,WD Black SN770 1TB NVMe
+66,Corsair 650W RM650x,PSU,Corsair,399,72,,,650,Corsair 650W RM650x
+67,Corsair 750W RM750x,PSU,Corsair,499,78,,,750,Corsair 750W RM750x
+68,Corsair 850W RM850x,PSU,Corsair,649,82,,,850,Corsair 850W RM850x
+69,EVGA 600W B5,PSU,EVGA,299,60,,,600,EVGA 600W B5
+70,Seasonic Focus GX-650,PSU,Seasonic,449,80,,,650,Seasonic Focus GX-650
+71,Seasonic Focus GX-750,PSU,Seasonic,549,83,,,750,Seasonic Focus GX-750
+72,Seasonic Focus GX-850,PSU,Seasonic,649,85,,,850,Seasonic Focus GX-850
+73,EVGA 500W BQ,PSU,EVGA,229,52,,,500,EVGA 500W BQ
+74,Cooler Master MWE 550W Bronze,PSU,Cooler Master,249,55,,,550,Cooler Master MWE 550W Bronze
+75,DeepCool PQ750M,PSU,DeepCool,399,74,,,750,DeepCool PQ750M
+76,Cooler Master Q300L,Case,Cooler Master,199,55,,,0,Cooler Master Q300L
+77,Cooler Master TD500 Mesh,Case,Cooler Master,449,75,,,0,Cooler Master TD500 Mesh
+78,NZXT H510,Case,NZXT,399,72,,,0,NZXT H510
+79,Lian Li Lancool 216,Case,Lian Li,549,80,,,0,Lian Li Lancool 216
+80,Corsair 4000D Airflow,Case,Corsair,499,78,,,0,Corsair 4000D Airflow
+81,Phanteks Eclipse P400A,Case,Phanteks,499,78,,,0,Phanteks Eclipse P400A
+82,Fractal Design Meshify C,Case,Fractal Design,599,82,,,0,Fractal Design Meshify C
+83,DeepCool CC560,Case,DeepCool,249,60,,,0,DeepCool CC560
+84,Redragon GC-601,Case,Redragon,189,50,,,0,Redragon GC-601
+85,Aerocool Cylon Mini,Case,Aerocool,229,52,,,0,Aerocool Cylon Mini
+86,Cooler Master Hyper 212 Black Edition,Cooler,Cooler Master,159,65,,,0,Cooler Master Hyper 212 Black Edition
+87,NZXT Kraken X53,Cooler,NZXT,599,85,,,0,NZXT Kraken X53
+88,Corsair H100i Elite Capellix,Cooler,Corsair,799,88,,,0,Corsair H100i Elite Capellix
+89,DeepCool AK620,Cooler,DeepCool,299,78,,,0,DeepCool AK620
+90,be quiet! Dark Rock Pro 4,Cooler,be quiet!,449,83,,,0,be quiet Dark Rock Pro 4
+91,Cooler Master MA612 Stealth,Cooler,Cooler Master,249,72,,,0,Cooler Master MA612 Stealth
+92,ID-Cooling SE-226-XT,Cooler,ID-Cooling,229,70,,,0,ID-Cooling SE-226-XT
+93,Cooler Master MasterAir MA410M,Cooler,Cooler Master,199,65,,,0,Cooler Master MasterAir MA410M
+94,NZXT T120,Cooler,NZXT,199,63,,,0,NZXT T120
+95,Thermalright Assassin X 120 R SE,Cooler,Thermalright,149,60,,,0,Thermalright Assassin X 120 R SE

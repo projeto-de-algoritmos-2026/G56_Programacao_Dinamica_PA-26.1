@@ -1,0 +1,41 @@
+id,name,brand,price_brl,cpu,gpu,ram_gb,storage_gb,screen_size,performance_score,store_search_name
+1,Acer Aspire 5 A515,Acer,2499,Intel Core i5-1235U,Intel Iris Xe Graphics,8,256,15.6,42,Acer Aspire 5 A515
+2,Lenovo IdeaPad 3 15,Lenovo,2799,AMD Ryzen 5 5500U,AMD Radeon Graphics,8,256,15.6,44,Lenovo IdeaPad 3 15
+3,HP Victus 15 i5,HP,3999,Intel Core i5-12450H,NVIDIA GeForce RTX 2050,8,512,15.6,62,HP Victus 15 i5
+4,Dell Inspiron 15 3511,Dell,2999,Intel Core i5-1135G7,Intel Iris Xe Graphics,8,256,15.6,46,Dell Inspiron 15 3511
+5,Lenovo IdeaPad Gaming 3 i5,Lenovo,4499,Intel Core i5-12450H,NVIDIA GeForce RTX 3050,8,512,15.6,68,Lenovo IdeaPad Gaming 3 i5
+6,ASUS VivoBook 15,ASUS,2699,AMD Ryzen 5 5600H,AMD Radeon RX Vega 7,8,512,15.6,50,ASUS VivoBook 15
+7,Acer Nitro 5 RTX 3050,Acer,4999,AMD Ryzen 5 6600H,NVIDIA GeForce RTX 3050,8,512,15.6,70,Acer Nitro 5 RTX 3050
+8,HP Pavilion Gaming 15,HP,4299,Intel Core i5-12500H,NVIDIA GeForce GTX 1650,8,512,15.6,64,HP Pavilion Gaming 15
+9,ASUS ROG Strix G15,ASUS,6999,AMD Ryzen 7 6800H,NVIDIA GeForce RTX 3060,16,512,15.6,82,ASUS ROG Strix G15
+10,Dell G15 RTX 3060,Dell,6499,Intel Core i7-12700H,NVIDIA GeForce RTX 3060,16,512,15.6,80,Dell G15 RTX 3060
+11,Lenovo Legion 5 Pro RTX 3070,Lenovo,9499,AMD Ryzen 7 6800H,NVIDIA GeForce RTX 3070,16,1000,16.0,88,Lenovo Legion 5 Pro RTX 3070
+12,ASUS ROG Strix G17 RTX 3070,ASUS,8999,AMD Ryzen 9 6900HX,NVIDIA GeForce RTX 3070,16,1000,17.3,89,ASUS ROG Strix G17 RTX 3070
+13,Acer Predator Helios 300 RTX 3060,Acer,7499,Intel Core i7-12700H,NVIDIA GeForce RTX 3060,16,512,15.6,83,Acer Predator Helios 300 RTX 3060
+14,MSI GF63 Thin RTX 3050,MSI,4799,Intel Core i5-12450H,NVIDIA GeForce RTX 3050,8,512,15.6,67,MSI GF63 Thin RTX 3050
+15,MSI Katana GF76 RTX 3060,MSI,6999,Intel Core i7-12650H,NVIDIA GeForce RTX 3060,16,512,17.3,79,MSI Katana GF76 RTX 3060
+16,Samsung Galaxy Book3 360,Samsung,5999,Intel Core i5-1340P,Intel Iris Xe Graphics,16,512,15.6,58,Samsung Galaxy Book3 360
+17,LG Gram 15Z90R,LG,7999,Intel Core i7-1360P,Intel Iris Xe Graphics,16,512,15.6,62,LG Gram 15Z90R
+18,HP EliteBook 840 G9,HP,6499,Intel Core i5-1235U,Intel Iris Xe Graphics,16,256,14.0,56,HP EliteBook 840 G9
+19,Acer Nitro 5 RTX 3060,Acer,6999,Intel Core i7-12700H,NVIDIA GeForce RTX 3060,16,512,15.6,81,Acer Nitro 5 RTX 3060
+20,Lenovo Legion 5i Gen 7 RTX 3060,Lenovo,7999,Intel Core i7-12700H,NVIDIA GeForce RTX 3060,16,512,15.6,82,Lenovo Legion 5i Gen 7 RTX 3060
+21,ASUS TUF Gaming A15 RTX 3050,ASUS,5499,AMD Ryzen 7 6800H,NVIDIA GeForce RTX 3050,8,512,15.6,72,ASUS TUF Gaming A15 RTX 3050
+22,HP Victus 16 RTX 3060,HP,6999,AMD Ryzen 7 6800H,NVIDIA GeForce RTX 3060,16,512,16.1,80,HP Victus 16 RTX 3060
+23,MSI Raider GE76 RTX 3080,MSI,14999,Intel Core i9-12900HK,NVIDIA GeForce RTX 3080,32,1000,17.3,96,MSI Raider GE76 RTX 3080
+24,ASUS ROG Zephyrus G14 RTX 3070,ASUS,9999,AMD Ryzen 9 6900HS,NVIDIA GeForce RTX 3070,16,1000,14.0,90,ASUS ROG Zephyrus G14 RTX 3070
+25,Acer Predator Helios 300 RTX 3070,Acer,9499,Intel Core i7-12700H,NVIDIA GeForce RTX 3070,16,1000,15.6,87,Acer Predator Helios 300 RTX 3070
+26,Dell Alienware m15 R7,Dell,11999,Intel Core i7-12700H,NVIDIA GeForce RTX 3070,16,512,15.6,88,Dell Alienware m15 R7
+27,Lenovo Legion 7 Gen 7 RTX 3080,Lenovo,13499,AMD Ryzen 9 6900HX,NVIDIA GeForce RTX 3080,32,1000,16.0,94,Lenovo Legion 7 Gen 7 RTX 3080
+28,ASUS ROG Strix Scar 15 RTX 3080,ASUS,14999,Intel Core i9-12900H,NVIDIA GeForce RTX 3080,32,1000,15.6,96,ASUS ROG Strix Scar 15 RTX 3080
+29,Razer Blade 15 RTX 3070,Razer,12999,Intel Core i7-12800H,NVIDIA GeForce RTX 3070,16,1000,15.6,90,Razer Blade 15 RTX 3070
+30,Acer Swift 3 SF314,Acer,2999,Intel Core i5-1240P,Intel Iris Xe Graphics,8,512,14.0,47,Acer Swift 3 SF314
+31,HP Dragonfly G3,HP,7499,Intel Core i5-1245U,Intel Iris Xe Graphics,16,512,13.5,55,HP Dragonfly G3
+32,Dell XPS 13 Plus,Dell,8499,Intel Core i7-1260P,Intel Iris Xe Graphics,16,512,13.4,60,Dell XPS 13 Plus
+33,Lenovo ThinkPad X1 Carbon Gen 10,Lenovo,9999,Intel Core i7-1265U,Intel Iris Xe Graphics,32,512,14.0,63,Lenovo ThinkPad X1 Carbon Gen 10
+34,MSI Titan GT77 RTX 3080 Ti,MSI,19999,Intel Core i9-12900HX,NVIDIA GeForce RTX 3080 Ti,64,2000,17.3,99,MSI Titan GT77 RTX 3080 Ti
+35,ASUS ROG Flow X13,ASUS,8999,AMD Ryzen 9 6900HS,NVIDIA GeForce RTX 3050 Ti,16,512,13.4,76,ASUS ROG Flow X13
+36,Acer Nitro 5 i7 RTX 4060,Acer,7999,Intel Core i7-12700H,NVIDIA GeForce RTX 4060,16,512,15.6,84,Acer Nitro 5 i7 RTX 4060
+37,Lenovo Legion 5 Gen 8 RTX 4060,Lenovo,8999,AMD Ryzen 7 7745HX,NVIDIA GeForce RTX 4060,16,512,15.6,86,Lenovo Legion 5 Gen 8 RTX 4060
+38,ASUS TUF Gaming F15 RTX 4060,ASUS,7499,Intel Core i7-12700H,NVIDIA GeForce RTX 4060,16,512,15.6,84,ASUS TUF Gaming F15 RTX 4060
+39,MSI Katana 15 RTX 4060,MSI,7999,Intel Core i7-12650H,NVIDIA GeForce RTX 4060,16,512,15.6,83,MSI Katana 15 RTX 4060
+40,HP Victus 15 RTX 4060,HP,7499,AMD Ryzen 7 7745HX,NVIDIA GeForce RTX 4060,16,512,15.6,83,HP Victus 15 RTX 4060
