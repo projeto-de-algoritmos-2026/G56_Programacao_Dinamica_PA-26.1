@@ -1,0 +1,11 @@
+services:
+  pc-build-optimizer:
+    build: .
+    container_name: pc-build-optimizer
+    ports:
+      - "8501:8501"
+    volumes:
+      - ./data:/app/data
+    environment:
+      - PYTHONUNBUFFERED=1
+    restart: unless-stopped
