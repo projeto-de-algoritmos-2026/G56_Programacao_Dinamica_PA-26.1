@@ -95,6 +95,10 @@ def find_solution_from_dp(
     steps = list(reversed(steps))
     selected = list(reversed(selected))
 
+    # Renumera passos após a inversão para manter numeração sequencial
+    for idx, step in enumerate(steps, start=1):
+        step.step = idx
+
     total_price = sum(s.item_price for s in steps)
     total_score = sum(s.score for s in steps)
 
@@ -177,6 +181,9 @@ def find_solution_from_memo(
 
     steps = list(reversed(steps))
     selected = list(reversed(selected))
+
+    for idx, step in enumerate(steps, start=1):
+        step.step = idx
 
     total_price = sum(s.item_price for s in steps)
     total_score = sum(s.score for s in steps)

@@ -82,10 +82,11 @@ class TestKnapsackIterativo:
         assert result.execution_time_ms >= 0
 
     def test_large_capacity(self):
+        # 100+200+300=600 excede 500; melhor é 200+300=500 (valor=50)
         weights = [100, 200, 300]
         values = [10.0, 20.0, 30.0]
         result = knapsack_iterativo(weights, values, 500)
-        assert result.value == pytest.approx(60.0)
+        assert result.value == pytest.approx(50.0)
 
     def test_duplicate_values(self):
         weights = [5, 5, 5]
