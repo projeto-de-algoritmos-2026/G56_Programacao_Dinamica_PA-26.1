@@ -4,6 +4,12 @@
 
 ---
 
+## Vídeo de Apresentação
+
+📺 Assista à demonstração do sistema: [youtu.be/Mg9q_6k3Q5Y](https://youtu.be/Mg9q_6k3Q5Y)
+
+---
+
 ## Descrição
 
 PC Build Optimizer é uma aplicação web interativa que resolve o problema de escolha de componentes de computador como um **problema de otimização combinatória**, utilizando o algoritmo clássico da **Mochila (Knapsack)** e sua variação por grupos (**Grouped Knapsack / Multiple Choice Knapsack**).
