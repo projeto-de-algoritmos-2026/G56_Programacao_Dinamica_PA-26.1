@@ -6,7 +6,7 @@
 
 ## Vídeo de Apresentação
 
-📺 Assista à demonstração do sistema: [youtu.be/Mg9q_6k3Q5Y](https://youtu.be/Mg9q_6k3Q5Y)
+[![Assista à demonstração do sistema](https://img.youtube.com/vi/Mg9q_6k3Q5Y/maxresdefault.jpg)](https://youtu.be/Mg9q_6k3Q5Y)
 
 ---
 
